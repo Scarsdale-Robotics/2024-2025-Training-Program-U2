@@ -32,10 +32,10 @@ public class HardwareRobot {
         leftBack.setRunMode(Motor.RunMode.RawPower);
         rightBack.setRunMode(Motor.RunMode.RawPower);
 
-        leftFront.setInverted(false);
-        rightFront.setInverted(false);
-        leftBack.setInverted(false);
-        rightBack.setInverted(false);
+        leftFront.setInverted(true);
+        rightFront.setInverted(true);
+        leftBack.setInverted(true);
+        rightBack.setInverted(true);
 
         leftFront.motor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
         rightFront.motor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
