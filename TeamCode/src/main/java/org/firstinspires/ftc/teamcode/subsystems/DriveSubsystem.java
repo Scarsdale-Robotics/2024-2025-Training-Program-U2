@@ -39,28 +39,28 @@ public class DriveSubsystem extends SubsystemBase {
      * @return the current position of the robot's back left wheel in ticks.
      */
     public int getLeftBackPosition() {
-        return -leftBack.getCurrentPosition();
+        return leftBack.getCurrentPosition();
     }
 
     /**
      * @return the current position of the robot's back right wheel in ticks.
      */
     public int getRightBackPosition() {
-        return rightBack.getCurrentPosition();
+        return -rightBack.getCurrentPosition();
     }
 
     /**
      * @return the current position of the robot's front left wheel in ticks.
      */
     public int getLeftFrontPosition() {
-        return leftFront.getCurrentPosition();
+        return -leftFront.getCurrentPosition();
     }
 
     /**
      * @return the current position of the robot's front right wheel in ticks.
      */
     public int getRightFrontPosition() {
-        return rightFront.getCurrentPosition();
+        return -rightFront.getCurrentPosition();
     }
 
     /**
